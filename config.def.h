@@ -182,6 +182,8 @@ ResourcePref resources[] = {
 		{ "bellvolume",   INTEGER, &bellvolume },
 		{ "tabspaces",    INTEGER, &tabspaces },
 		{ "borderpx",     INTEGER, &borderpx },
+		{ "cols",         INTEGER, &cols },
+		{ "rows",         INTEGER, &rows },
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
 };
