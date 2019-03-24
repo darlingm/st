@@ -184,6 +184,7 @@ ResourcePref resources[] = {
 		{ "borderpx",     INTEGER, &borderpx },
 		{ "cols",         INTEGER, &cols },
 		{ "rows",         INTEGER, &rows },
+		{ "defaultfg",    INTEGER, &defaultfg },
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
 };
