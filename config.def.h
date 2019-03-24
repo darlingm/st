@@ -191,6 +191,9 @@ ResourcePref resources[] = {
 		{ "cols",         INTEGER, &cols },
 		{ "rows",         INTEGER, &rows },
 		{ "defaultfg",    INTEGER, &defaultfg },
+		{ "disablebold",  INTEGER, &disablebold },
+		{ "disableitalic",INTEGER, &disableitalic },
+		{ "disableroman", INTEGER, &disableroman },
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
 };
