@@ -1915,6 +1915,9 @@ run(void)
 			win.mode ^= MODE_BLINK;
 			lastblink = now;
 			dodraw = 1;
+		} else {
+			MODBIT(win.mode, 0, MODE_BLINK);
+			lastblink=now;
 		}
 		deltatime = TIMEDIFF(now, last);
 		if (deltatime > 1000 / (xev ? xfps : actionfps)) {
